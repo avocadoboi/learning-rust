@@ -1,5 +1,5 @@
 [package]
-name = "experimenting"
+name = "traits_generics_and_ordering"
 version = "0.1.0"
 authors = ["Björn Sundin <bjornsundin02@gmail.com>"]
 edition = "2018"
