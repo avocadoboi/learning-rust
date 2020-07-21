@@ -46,7 +46,7 @@ fn get_partially_ordered_max<T: PartialOrd>(p_list: &[T]) -> &T {
 }
 
 fn main() {
-    let list = vec![
+    let list = [
         Vector2d{x: 4, y: 9}, Vector2d{x: 2, y: 5}, 
         Vector2d{x: 103, y: -51}, Vector2d{x: 44, y: 42}, 
         Vector2d{x: 4, y: 9},
