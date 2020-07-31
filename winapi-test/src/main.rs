@@ -19,6 +19,10 @@ pub unsafe extern "system" fn handle_window_events(
     wparam: WPARAM,
     lparam: LPARAM
 ) -> LRESULT {
+    if message == WM_DESTROY {
+        PostQuitMessage(0);
+        return 0;
+    }
     DefWindowProcW(window_handle, message, wparam, lparam)
 }
 
